@@ -1,4 +1,4 @@
-package com.sensehawk.casterioview;
+package com.sensehawk.casterioview.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
