@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sensehawk.casterioview.view.CustomListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+  <ImageView
+      android:src="@drawable/ic_launcher_background"
+      android:id="@+id/icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      />
+
+  <TextView
+      android:layout_marginLeft="8dp"
+      android:text="some random title"
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      />
+  <TextView
+      android:layout_marginLeft="8dp"
+      android:text="some random subtitle"
+      android:id="@+id/subtitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      />
+</com.sensehawk.casterioview.view.CustomListItem>
